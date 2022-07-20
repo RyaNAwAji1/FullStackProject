@@ -1,0 +1,48 @@
+.services-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+}
+.services-content {
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+}
+.services-head {
+  font-size: 2.4em;
+  font-weight: 700;
+  background: rgb(195, 34, 185);
+  background: linear-gradient(
+    63deg,
+    rgba(195, 34, 185, 1) 0%,
+    rgba(0, 255, 254, 1) 100%
+  );
+
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.box {
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  background: rgb(195, 34, 185);
+  background: linear-gradient(
+    279deg,
+    rgba(195, 34, 184, 0.528) 0%,
+    rgba(0, 255, 254, 1) 100%
+  );
+}
+
+.box p {
+  font-size: 0.9rem;
+}
+.box h1 {
+  font-size: 2rem;
+  margin: 20px;
+}

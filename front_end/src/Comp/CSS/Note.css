@@ -1,0 +1,83 @@
+.form-field {
+  background-color: rgb(227, 227, 227);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 50%;
+  height: 20vh;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;}
+.form-field :focus, .form-field :active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.form-body{
+    margin: 10px;
+    padding: 20px;
+    width: 10%;
+    height: 20vh;
+}
+.form-head {
+  text-align: center;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  padding: 0 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(36, 36, 36, 0.21);
+  color: rgb(0, 0, 0);
+  transition: 1s ease;
+}
+
+.form-head:focus {
+    width: 50%;
+    background-color: rgba(22, 107, 234, 0.498);
+}
+.btn-note-add{
+    background-color: rgba(22, 107, 234, 0.498);
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 30%;
+    border-radius: 7px;
+    padding: 7px;
+
+}
+.btn-note-add-new{
+    background-color: rgba(22, 107, 234, 0.498);
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    border-radius: 7px;
+    padding: 7px;
+    margin-top: 20px;
+}
+.btn-note-back{
+    background-color: rgba(234, 22, 22, 0.498);
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 30%;
+    border-radius: 7px;
+    padding: 7px;
+    margin: 10px;
+
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.list-group-item{
+    color:rgb(0, 191, 255)
+}

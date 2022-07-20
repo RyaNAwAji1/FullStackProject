@@ -1,0 +1,54 @@
+.about-main {
+  background-image: url("../Images/us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center;
+  object-position: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.about-contents {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(0, 0, 0, 0.522);
+  /* box-shadow: rgba(0, 0, 0, 0.82) 2px 8px 8px; */
+  border: 0px;
+  /* box-shadow: -10px -10px 10px #00000078, 10px 10px 10px #00000073; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-head {
+  font-size: 4em;
+  font-weight: 700;
+  background: rgb(195, 34, 185);
+  background: linear-gradient(
+    63deg,
+    rgba(195, 34, 185, 1) 0%,
+    rgba(0, 255, 254, 1) 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.about-p{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(159, 217, 255);
+}
+.ourNames{
+    font-size: 1.2em;
+    font-weight: 900;
+    color: rgb(170, 0, 255);
+}

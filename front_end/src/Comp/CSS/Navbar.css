@@ -1,0 +1,51 @@
+.navbar {
+  padding: 10px;
+
+  background-color: rgb(232, 230, 230);
+}
+
+.container-fluid {
+  /* padding: 10px; */
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: rgb(61, 61, 61);
+  transition: 0.4s ease;
+}
+.navbar-brand:hover {
+  color: rgb(48, 146, 154);
+}
+.dropdown-item {
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+}
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: rgb(48, 146, 154);
+  border: none !important;
+  border-radius: 7px;
+  outline: none !important;
+}
+.logo {
+  background: rgb(195, 34, 185);
+  background: linear-gradient(
+    63deg,
+    rgba(195, 34, 185, 1) 0%,
+    rgba(0, 255, 254, 1) 100%
+  );
+  /* box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+     */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

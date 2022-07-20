@@ -1,0 +1,67 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.s1-content {
+  padding: 10px;
+  margin: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.348);
+  /* box-shadow: rgba(0, 0, 0, 0.82) 2px 8px 8px; */
+  border: 0px;
+  box-shadow: -10px -10px 10px #00000078, 10px 10px 10px #00000073;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.s1-content p {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.s1-content img {
+  transform: scale(1.1);
+  margin: 50px;
+}
+
+.s1 {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.s3 {
+  height: 100vh;
+
+  background-color: rgb(255, 0, 200);
+}
+.s4 {
+  height: 100vh;
+
+  background-color: rgb(0, 64, 255);
+}
